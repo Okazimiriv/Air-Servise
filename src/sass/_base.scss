@@ -1,7 +1,11 @@
 :root {
-  --base-color-primary: #F3C653;
+  --accent-color: #E29303;
   --base-color-blurred: rgba(243, 198, 83, 0.7);
-  --base-color-secondary: #C79002;
+  --color-light: #FEC04D;
+  --color-secondary: #FDAD1C;
+  --color-beige: #DAC6AC;
+  --color-grey: #595959;
+  --color-dark: #404040;
 }  
   
 *,
@@ -19,7 +23,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: black;
+  color: #100000;
 }
 
 img {
@@ -35,6 +39,7 @@ img {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+  border: red solid 1px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -53,7 +58,7 @@ img {
   }
 }
 
-.link {
+.dekore-link {
   text-decoration: none;
 }
 
