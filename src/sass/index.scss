@@ -5,25 +5,11 @@
 @import './footer';
 
 // Main
-@import './main/hero-main';
-@import './main/about-restaurant';
-@import './main/details-restaurant';
-@import './main/about-hotel';
-@import './main/details-hotel';
+// @import './main/';
+@import './main/hero';
+@import './main/produkts';
+@import './main/services';
 @import './main/contacts';
 
-// Restaurant Page
-@import './restaurant/hero-restaurant';
-@import './restaurant/about-kitchen';
-@import './restaurant/menu';
-
-// Hotel Page
-@import './hotel/hero-hotel';
-@import './hotel/room-section';
-
-// Room Page
-@import './room/hero-room';
-@import './room/amenities';
-
 // Modal-styles
-@import './modal';
+// @import './modal';
