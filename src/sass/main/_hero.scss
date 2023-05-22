@@ -103,7 +103,8 @@
   font-size: 60px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--accent-color);
+  color: #e77717;
+  text-shadow: 2px 2px 4px #000000;
   text-align: center;
   animation: vertical-move 1s ease-in-out calc(500ms * var(--shift)) both;
 }
@@ -133,6 +134,7 @@
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: var(--color-wite);
+  text-shadow: 2px 2px 4px #000000;
   text-align: center;
    animation: right-to-left 1s ease-in-out calc(500ms * var(--shift)) both;
 }
@@ -162,6 +164,7 @@
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: var(--color-wite);
+  text-shadow: 2px 2px 4px #000000;
   text-align: center;
   animation: vertical-move 1s ease-in-out calc(500ms * var(--shift)) both;
 }
