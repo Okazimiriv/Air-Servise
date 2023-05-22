@@ -54,7 +54,7 @@
 //   }
 // }
 .address-link {
-  width: 165px;
+  width: 185px;
   margin-top: 20px;
   margin-left: auto;
   padding: 8px 0;
@@ -87,10 +87,11 @@
 
 .address {
   font-style: normal;
-  font-size: 12px;
+  font-size: 15px;
   line-height: calc(15 / 12);
   letter-spacing: 0.01em;
   color: var(--color-wite);
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .hero-title {
