@@ -131,7 +131,7 @@
   font-size: 35px;
   line-height: 1.25;
   letter-spacing: 0.01em;
-  color: var(--color-text);
+  color: var(--accent-color);
   text-align: center;
    animation: right-to-left 1s ease-in-out calc(500ms * var(--shift)) both;
 }
@@ -160,7 +160,7 @@
   font-size: 35px;
   line-height: 1.25;
   letter-spacing: 0.01em;
-  color: var(--color-text);
+  color: var(--accent-color);
   text-align: center;
   animation: vertical-move 1s ease-in-out calc(500ms * var(--shift)) both;
 }
