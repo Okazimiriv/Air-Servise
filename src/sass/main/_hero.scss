@@ -1,12 +1,13 @@
 .hero {
   margin: 0 auto;
-  padding-top: 64px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 
 // @media screen and (max-width: 413.98px) {
 //   // .hero {
@@ -98,7 +99,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: var(--accent-color);
@@ -122,16 +123,14 @@
   }
 }
 
-
-
 .hero-text {
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
-  font-size: 25px;
+  font-size: 35px;
   line-height: 1.25;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   color: var(--color-text);
   text-align: center;
    animation: right-to-left 1s ease-in-out calc(500ms * var(--shift)) both;
@@ -156,11 +155,11 @@
 .hero-slogan {
   margin-bottom: 80px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
-  font-size: 25px;
+  font-size: 35px;
   line-height: 1.25;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
   color: var(--color-text);
   text-align: center;
   animation: vertical-move 1s ease-in-out calc(500ms * var(--shift)) both;
@@ -264,5 +263,43 @@
 //   }
 //   .btn-ord-second-size {
 //     width: 254px;
+//   }
+// }
+
+.overlay {
+  margin-left: auto;
+  margin-right: auto;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  //   url(/src/images/main-page1/Untitledheder-slider@2x.png);
+    background-image:  url(/src/images/main-page1/Untitledheder-slider@1x.png);
+}
+
+// @media screen and (min-device-pixel-ratio: 2),
+// (min-resolution: 192dpi),
+// (min-resolution: 2dppx) {
+//   .overlay {
+//     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+//       url(../images/hero/office-mob@2x.jpg);
+//   }
+// }
+
+// /* tablet */
+// @media screen and (min-width: 481px) {
+//   .overlay {
+//     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+//       url(../images/hero/office-tab@1x.jpg);
+//   }
+// }
+
+// @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2),
+// screen and (min-width: 481px) and (min-resolution: 192dpi),
+// screen and (min-width: 481px) and (min-resolution: 2dppx) {
+//   .overlay {
+//     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+//       url(../images/hero/office-tab@2x.jpg);
 //   }
 // }
