@@ -36,11 +36,11 @@ img {
 
 .container {
   min-width: 320px;
-  max-width: 414px;
+  // max-width: 414px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+  
   border: red solid 1px;
 }
 

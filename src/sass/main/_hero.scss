@@ -1,5 +1,5 @@
 .hero {
-  margin: 0 auto;
+  // margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 10px;
   background-size: cover;
@@ -54,8 +54,8 @@
 //   }
 // }
 .address-link {
-  width: 185px;
-  margin-top: 20px;
+  width: 200px;
+  margin-top: 10px;
   margin-left: auto;
   padding: 8px 0;
   display: flex;
@@ -96,15 +96,15 @@
 
 .hero-title {
   margin-left: calc(84px * 0.16);
-  margin-bottom: 40px;
-  padding-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 70px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 60px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: #e77717;
+  color: var(--accent-color);
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
   animation: vertical-move 1s ease-in-out calc(500ms * var(--shift)) both;
@@ -131,7 +131,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: var(--color-wite);
@@ -157,11 +157,11 @@
 }
 
 .hero-slogan {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 35px;
+  font-size: 25px;
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: var(--color-wite);
@@ -175,6 +175,7 @@
   height: 48px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 60px;
   display: block;
   font-family: inherit;
   font-weight: 700;

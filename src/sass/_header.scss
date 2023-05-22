@@ -1,9 +1,27 @@
 /* ______heder______ */
 
+@media screen and (min-width: 414px) {
+ 
+  }
+@media screen and (min-width: 1024px) {
+  
+  }
+@media screen and (min-width: 1280px) {
+  
+  }
+
+@media screen and (max-width: 414px) {
+  .hiden {
+    display: none;
+  }
+}
+
 .header-border {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
+@media screen and (min-width: 1024px) {}
 
 .mein-nav {
   display: flex;
@@ -17,8 +35,9 @@
 //   }
 // }
 
-.logo {
-  
+.logo-icon {
+  height: 50px;
+  margin-right: 10px;
 }
 
 // @media screen and (min-width: 1200px) {
@@ -32,10 +51,10 @@
 
 }
 
-.heder {
-  align-items: center;
-  justify-content: space-between;
-}
+// .heder {
+//   align-items: center;
+//   justify-content: space-between;
+// }
 
 // @media screen and (min-width: 1200px) {
 //   .heder {
@@ -46,6 +65,7 @@
 .site-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .site-nav .link {
@@ -54,7 +74,7 @@
   padding-bottom: var(--gap24);
 
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 
@@ -63,7 +83,7 @@
 }
 
 .site-nav .item {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .site-nav .item:last-child {
